@@ -119,3 +119,33 @@ body {
     text-align: center;
     margin-top: 32px;
 }
+
+/* Section 4 */
+.sec4 {
+    max-width: 1440px;
+    max-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 128px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 87px 175px;
+    margin-bottom: 128px;
+}
+.sec4-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+.sec4-box img {
+    width: 88px;
+    height: 88px;
+}
+.sec4-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+}
