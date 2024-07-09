@@ -313,3 +313,35 @@ input:focus {
     opacity: 0.8;
     box-shadow: 0 0 20px 0 lightgray;
 }
+footer {
+    background-color: #111010;
+    max-width: 1922px;
+    max-height: 449px;
+    margin: 0 auto;
+}
+.footer {
+    padding: 128px 648px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.footer-txt {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    text-align: center;
+    width: 625px;
+    height: 60px;
+}
+.footer-info {
+    color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
