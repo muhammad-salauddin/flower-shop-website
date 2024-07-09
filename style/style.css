@@ -115,6 +115,19 @@ body {
     left: 77px;
     top: 110px;
 }
+.sec3-img2 {
+    width: 370px; 
+    position: relative;
+    left: 77px;
+    top: 110px;
+}
+.sec3-img3 {
+    width: 314px;
+    height: 471px; 
+    position: relative;
+    left: 75px;
+    top: 67px;
+}
 .sec3-box-title {
     font-weight: bold;
     font-size: 24px;
@@ -211,4 +224,92 @@ body {
 .sec5-btn:hover {
     opacity: 0.8;
     box-shadow: 0 0 10px 0 lightgray;
+}
+.sec6-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.sec6-txt {
+    width: 594px;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+/* Section 7 */
+.sec7-container {
+    max-width: 1440px;
+    max-height: 396px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+}
+.sec7-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+.sec7-img {
+    width: 342px;
+    height: 396px;
+}
+/* Section 8 */
+.sec8-container {
+    width: 1440px;
+    height: 449px;
+    margin: 0 auto;
+    margin-bottom: 128px;
+    border-radius: 8px;
+    background-image: url("../images/latest-deals-bg.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec8-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.sec8-txt {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
+.sec8-search {
+    width: 700px;
+    height: 64px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.6);
+    padding: 22px;
+    font-size: 16px;
+    margin-right: 16px;
+}
+.sec8-subscribe {
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 64px;
+    padding: 18px 31px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sec8-subscribe:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 20px 0 lightgray;
 }
